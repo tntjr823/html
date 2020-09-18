@@ -137,7 +137,17 @@ body {
   justify-content: space-between;
 }
 
-.btn {
+.btn-line {
+  width: 154px;
+  height: 46px;
+  border: 1px solid #fe5454;
+  border-radius: 8px;
+  background: transparent;
+  color: #fe5454;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
   width: 154px;
   height: 46px;
   border: 1px solid #fe5454;
@@ -147,10 +157,4 @@ body {
   font-size: 14px;
   line-height: 44px;
   cursor: pointer;
-}
-
-.btn-line {
-  border: 1px solid #fe5454;
-  background: transparent;
-  color: #fe5454;
 }

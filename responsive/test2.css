@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  position: relative;
+}
+
+h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section {
+  width: 96%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header {
+  height: 70px;
+  background: #aeaeae;
+}
+
+.slide {
+  height: 700px;
+  background: #c4c4c4;
+  margin-bottom: 40px;
+}
+
+/* content1 */
+.content1 {
+  height: 220px;
+  background: #e1e1e1;
+  margin-bottom: 20px;
+}
+
+/* content2 */
+.content2 {
+  height: 200px;
+  background: #f0f0f0;
+  margin-bottom: 20px;
+}
+
+.content2:nth-child(1) {
+  margin-top: 20px;
+}
+
+/* content3 */
+.content3 {
+  height: 260px;
+  background: #c4c4c4;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+/* content4 */
+.content-04 {
+  overflow: hidden;
+}
+
+.content4 {
+  width: 172px;
+  height: 172px;
+  background: #e1e1e1;
+  margin-bottom: 20px;
+  float: left;
+  margin-right: 16px;
+}
+.content4:nth-child(2n) {
+  margin-right: 0;
+}
+
+/* content5 */
+.content5 {
+  height: 220px;
+  background: #f0f0f0;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+/* footer */
+.footer {
+  height: 600px;
+  background: #aeaeae;
+}
+
+@media (min-width: 1440px) {
+  .section {
+    width: 1160px;
+  }
+
+  .content-01 {
+    overflow: hidden;
+  }
+  .content1 {
+    float: left;
+    width: 560px;
+    height: 300px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+  .content1:nth-child(2) {
+    margin-right: 0;
+  }
+
+  .content-02 {
+    overflow: hidden;
+  }
+  .content2 {
+    float: left;
+    width: 360px;
+    height: 220px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+  }
+  .content2:nth-child(1) {
+    margin-top: 0;
+  }
+  .content2:nth-child(3) {
+    margin-right: 0;
+  }
+
+  .content4 {
+    width: 260px;
+    height: 260px;
+    margin-bottom: 40px;
+    float: left;
+    margin-right: 40px;
+  }
+  .content4:nth-child(2n) {
+    margin-right: 40px;
+  }
+  .content4:nth-child(4n) {
+    margin-right: 0;
+  }
+
+  .content5 {
+    width: 1160px;
+    height: 300px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+  }
+
+  .footer {
+    height: 400px;
+  }
+}
